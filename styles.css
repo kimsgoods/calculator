@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 800px;
+}
+
+.screen{
+    border: 2px solid black;
+    width: 300px;
+    height: 100px;
+    align-self: center;
+    margin: 100px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
